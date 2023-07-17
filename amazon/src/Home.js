@@ -16,25 +16,26 @@ function Home() {
         <div className="home_row">
           <Product
             title="OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)"
-            price="17,999"
+            price={17+","+999}
+            
             image="https://m.media-amazon.com/images/I/413u56t+CiL._AC_SY400_.jpg"
             rating={3}
           />
           <Product
             title="OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage)"
-            price="56,999"
+            price={56+","+999}
             image="https://m.media-amazon.com/images/I/61amb0CfMGL._SX679_.jpg"
             rating={4}
           />
           <Product
             title="OnePlus Nord 3 5G (Misty Green, 8GB RAM, 128GB Storage)"
-            price="33,999"
+            price={33+","+999}
             image="https://m.media-amazon.com/images/I/61ngnTanGnL._SX679_.jpg"
             rating={3}
           />
           <Product
             title="Apple iPhone 14 (128 GB) - Blue"
-            price="66,999"
+            price={66+","+999}
             image="https://m.media-amazon.com/images/I/61bK6PMOC3L._SX679_.jpg"
             rating={4}
           />
@@ -42,31 +43,31 @@ function Home() {
         <div className="home_row">
           <Product
             title=" OnePlus Nord Buds True Wireless in Ear Earbuds with Mic (Black Slate)"
-            price="2,798"
+            price={2+","+798}
             image="https://m.media-amazon.com/images/I/514NPRZ1AQL._SX679_.jpg"
             rating={4}
           />
           <Product
             title="OnePlus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic (Magico Black)"
-            price="1,598"
+            price={1+","+598}
             image="https://m.media-amazon.com/images/I/51UhwaQXCpL._SX679_.jpg"
             rating={3}
           />
           <Product
             title="BL Flip 5 Wireless Portable Bluetooth Speaker (Without Mic, Blue)"
-            price="5,997"
+            price={5+","+997}
             image="https://m.media-amazon.com/images/I/71CC5cSzqoL._SX679_.jpg"
             rating={5}
           />
           <Product
             title="boAt Rockerz 450 Bluetooth On Ear Headphones with Mic (Luscious Black)"
-            price="1,298"
+            price={1+","+298}
             image="https://m.media-amazon.com/images/I/51xxA+6E+xL._SX679_.jpg"
             rating={3}
           />
           <Product
             title="ASUS RGB Gaming Wired On Ear Headset  ROG Delta   ( White )"
-            price="17,999"
+            price={17+","+999}
             image="https://m.media-amazon.com/images/I/51XXYvbE5NL._SX679_.jpg"
             rating={5}
           />
@@ -74,7 +75,7 @@ function Home() {
         <div className="home_row">
         <Product
             title="Sony Bravia 164 cm (65 inches) 4K Ultra HD Smart LED Google TV KD-65X74K (Black)"
-            price="74,990"
+            price={74+","+990}
             image="https://m.media-amazon.com/images/I/81wxS8abrgL._SX679_.jpg"
             rating={4}
           />
