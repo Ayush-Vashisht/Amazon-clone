@@ -1,10 +1,7 @@
-import firebase from "firebase";
-// // Importing Firebase Firestore module
-// import { Firestore } from 'firebase/firestore';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
-// // Importing Firebase Auth module
-// import { Auth } from 'firebase/auth';
-// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
     apiKey: "AIzaSyCuF2XG3BFsIqh1aDFJQMBdGhuGuWudNcs",
     authDomain: "clone-9f003.firebaseapp.com",
@@ -15,9 +12,11 @@ const firebaseConfig = {
     measurementId: "G-VS338DT5NG"
   };
 
-  const firebaseApp=firebase.initializeApp(firebaseConfig);
+// Use this to initialize the firebase App
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 
-  const db=firebaseApp.firestore();
-  const auth=firebase.auth();
+// Use these for db & auth
+const db = firebaseApp.firestore();
+const auth = firebase.auth();
 
-  export {db,auth};
+export { auth, db };
