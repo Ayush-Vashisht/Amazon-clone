@@ -83,7 +83,7 @@ function Home() {
         </div>
         <div className="home_row">
         <Product
-          id="16461345"
+            id="16461345"
             title="Sony Bravia 164 cm (65 inches) 4K Ultra HD Smart LED Google TV KD-65X74K (Black)"
             price={74+","+990}
             image="https://m.media-amazon.com/images/I/81wxS8abrgL._SX679_.jpg"

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
@@ -10,6 +10,7 @@ import { auth } from "./firebase";
 function App() {
   const [{},dispatch]=useStateValue();
   
+  useEffect(()=>{
   auth.onAuthStateChanged(authUser=>{
     if(authUser){
       dispatch({
@@ -24,6 +25,7 @@ function App() {
       })
     }
   })
+  },[])
   return (
     <Router>
       <div className="App">
