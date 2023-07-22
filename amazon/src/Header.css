@@ -1,59 +1,59 @@
-.header{
-    display:flex;
-    height:60px;
-    position: sticky;
-    z-index:100;
-    align-items: center;
-    top:0px;
-    background-color: #131921;
+.header {
+  display: flex;
+  height: 60px;
+  position: sticky;
+  z-index: 100;
+  align-items: center;
+  top: 0px;
+  background-color: #131921;
 }
-.header__logo{
-    width:100px;
-    object-fit:contain;
-    margin:0 20px;
-    margin-top:10px;
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 10px;
 }
-.header__search{
-    display:flex;
-    flex:1;
-    align-items: center;
-    border-radius: 30px;
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 30px;
 }
-.header__searchInput{
-    height:12px;
-    padding:10px;
-    border:none;
-    width:100%;
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
 }
-.header_searchIcon{
-    padding:5px;
-    height:20px!important;
-    background-color: #cd9042;
+.header_searchIcon {
+  padding: 5px;
+  height: 20px !important;
+  background-color: #cd9042;
 }
-.header_nav{
-    display: flex;
-    justify-content: space-evenly;
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
 }
-.header__option{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right:10px;
-    color: white;
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
 }
-.header_optionLineOne{
-    font-size:9px;
+.header_optionLineOne {
+  font-size: 9px;
 }
-.header_optionLineTwo{
-    font-size:13px;
-    font-weight: 900;
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 900;
 }
-.header__basketIcon{
-    display: flex;
-    align-items: center;
-    color:white;
+.header__basketIcon {
+  display: flex;
+  align-items: center;
+  color: white;
 }
-.header__basketCount{
-    margin-left: 10px;
-    margin-right: 10px;
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
 }
